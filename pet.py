@@ -3,6 +3,7 @@
 
 # pseudocode
 # create the class
+class Pet:
   # implement the constructor
   # establish the methods for the pet
   # assigns a value to the name field
