@@ -2,7 +2,9 @@
 
 # pseudocode
 # import the class from module created
+from fan import Fan
 # create the TestFan class
+
   # implement the class contains
     # establish the objects of two fans
     # recognize the command of first fan and print the output
