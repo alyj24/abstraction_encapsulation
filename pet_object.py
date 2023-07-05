@@ -16,7 +16,10 @@ def main()
   # animal type of the pet
   animal_type = input("Now, enter the animal type of your pet: ")
   pet.set_animal_type(animal_type)
-  
+
   # age of the pet
+  age = input("You're almost done! How old is your pet?: ")
+  pet.set_age(age)
+  
   # print the output
 # check for errors
