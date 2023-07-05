@@ -21,5 +21,7 @@ class Car:
       self.__speed -= 5
       if self.__speed < 0:
           self.__speed = 0
-          
+
   # method to get the current speed
+  def get_speed(self):
+      return self.__speed
