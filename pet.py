@@ -10,11 +10,14 @@ class Pet:
         self.__name = ""
         self.__animal_type = ""
         self.__age = 0
+
+    # establish the methods for the pet
+    # assigns a value to the name field
+    def set_name(self, name):
+        self.__name = name
         
-  # establish the methods for the pet
-  # assigns a value to the name field
-  # assigns a value to the animal type field
-  # assigns a value to the age field
-  # return the value of the name field
-  # return the value of the animal type field
-  # return the value of the age field
+    # assigns a value to the animal type field
+    # assigns a value to the age field
+    # return the value of the name field
+    # return the value of the animal type field
+    # return the value of the age field
