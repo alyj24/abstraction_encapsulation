@@ -14,6 +14,12 @@ class Fan:
   MEDIUM = 2
   FAST = 3
   # establish the constructor
+  def __init__(self, speed=1, on=False, radius=1, color=blue):
+      self.speed = speed
+      self.on = on
+      self.radius = radius
+      self.color = color
+      
   # construct the accessor and mutator methods for all four private data fields
   # speed of the fan
   # on-switch of the fan
