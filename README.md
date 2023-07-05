@@ -41,6 +41,7 @@ get()
  
 • Mutator Method: This method is used to mutate/modify the state of an object i.e, it alters the hidden value of the data variable. It can set the value of a variable instantly to a new value. This method is also called as update method. Moreover, we can name these methods with the word set. 
 set() 
+
 • __init__()
 
 • accelerate()
