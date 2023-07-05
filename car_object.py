@@ -5,6 +5,7 @@
 
 # pseudocode
 # import class from the module created
+from car import Car
 # implement functions
   # establish the object of the car
   # call the program to accelerate, five times
