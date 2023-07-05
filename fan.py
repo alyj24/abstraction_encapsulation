@@ -7,6 +7,7 @@ print("=" * 47)
 
 # pseudocode
 # create the class that will represent a fan
+class Fan:
   # implement the fan speed
   # establish the constructor
   # construct the accessor and mutator methods for all four private data fields
