@@ -10,6 +10,8 @@ def main()
     pet = Pet()
   # ask the user for an inputs and save it all
   # name of the pet
+  name = input("Great Day! Please enter the name of your pet: ")
+  
   # animal type of the pet
   # age of the pet
   # print the output
