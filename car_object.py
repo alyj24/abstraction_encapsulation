@@ -12,20 +12,20 @@ def main():
     car = Car(2005, "Chevrolet Equinox")
 
     # call the program to accelerate, five times
-    for i in range(5):
+    for _ in range(5):
         car.accelerate()
         # print the output
-        print("After the acceleration of the car~")
-        print("The current speed of Chevrolet Equinox is ", car.get_speed())
+        print("\033[91mAfter the acceleration of the car~")
+        print("\033[94mThe current speed of Chevrolet Equinox is ", car.get_speed())
 
     # call the program to brake, five times
-    for i in range(5):
+    for _ in range(5):
         car.brake()
         # print the output
-        print("After the brake of the car~")
-        print("The current speed of Chevrolet Equinox is ", car.get_speed())
+        print("\033[91mAfter the brake of the car~")
+        print("\033[93mThe current speed of Chevrolet Equinox is ", car.get_speed())
 
-    # check for errors
-    if __name__ == "__main__"
-        main()
+# check for errors
+if __name__ == "__main__":
+    main()
 
