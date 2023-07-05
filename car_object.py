@@ -10,7 +10,10 @@ from car import Car
 def main():
     # establish the object of the car
     car = Car(2005, "Chevrolet Equinox")
-    
+
   # call the program to accelerate, five times
+  for i in range(5):
+      car.accelerate()
+      
   # call the program to brake, five times
   # check for errors
