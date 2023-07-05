@@ -15,8 +15,11 @@ class Pet:
     # assigns a value to the name field
     def set_name(self, name):
         self.__name = name
-        
+
     # assigns a value to the animal type field
+    def set_animal_type(self, animal_type):
+        self.__animal_type = animal_type
+        
     # assigns a value to the age field
     # return the value of the name field
     # return the value of the animal type field
