@@ -19,9 +19,11 @@ class Fan:
       self.on = on
       self.radius = radius
       self.color = color
-      
+
   # construct the accessor and mutator methods for all four private data fields
+  '''Accessor is also known as Getters while Mutator is Setters.'''
   # speed of the fan
+  
   # on-switch of the fan
   # radius of the fan
   # color of the fan
