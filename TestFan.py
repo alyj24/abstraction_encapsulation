@@ -5,8 +5,12 @@
 from fan import Fan
 # create the TestFan class
 class TestFan:
-  # implement the class contains
-    # establish the objects of two fans
+   # implement the class contains
+    def run_test(self):
+        # establish the objects of two fans
+        first_fan = Fan(Fan.FAST, True, 10, 'yellow')
+        second_fan = Fan(Fan.MEDIUM, False, 5, 'blue')
+       
     # recognize the command of first fan and print the output
     # recognize the command of second fan and print the output
 
