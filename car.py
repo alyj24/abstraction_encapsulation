@@ -3,6 +3,7 @@
 
 # pseudocode
 # create the class
+class Car:
   # implement the constructor
   # establish the methods for car
   # set the car's speed in increase of 5
