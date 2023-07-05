@@ -17,7 +17,12 @@ class TestFan:
     print("Radius:", first_fan.get_radius())
     print("Color:", first_fan.get_color())
     print("Is the fan on?:", first_fan.is_on())
-   
+
     # recognize the command of second fan and print the output
+    print("The Second Fan has the following properties:")
+    print("Speed:", second_fan.get_speed())
+    print("Radius:", second_fan.get_radius())
+    print("Color:", second_fan.get_color())
+    print("Is the fan on?:", second_fan.is_on())
 
 # run the program
