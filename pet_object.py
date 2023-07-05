@@ -11,8 +11,12 @@ def main()
   # ask the user for an inputs and save it all
   # name of the pet
   name = input("Great Day! Please enter the name of your pet: ")
-  
+  pet.set_name(name)
+
   # animal type of the pet
+  animal_type = input("Now, enter the animal type of your pet: ")
+  pet.set_animal_type(animal_type)
+  
   # age of the pet
   # print the output
 # check for errors
