@@ -23,7 +23,13 @@ class Fan:
   # construct the accessor and mutator methods for all four private data fields
   '''Accessor is also known as Getters while Mutator is Setters.'''
   # speed of the fan
-  
+  def get_speed(self):
+      return self.speed
+
+  def set_speed(self):
+      self.speed = speed
+      
   # on-switch of the fan
+
   # radius of the fan
   # color of the fan
