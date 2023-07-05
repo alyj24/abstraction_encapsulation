@@ -20,6 +20,11 @@ def main()
   # age of the pet
   age = input("You're almost done! How old is your pet?: ")
   pet.set_age(age)
-  
+
   # print the output
+  print("Good Job! Here is the list of information of your lovely pet:")
+  print("Name:", pet.get_name())
+  print("Animal Type:", pet.get_animal_type())
+  print("Age:", pet.get_age())
+  
 # check for errors
