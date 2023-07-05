@@ -26,3 +26,5 @@ class TestFan:
     print("Is the fan on?:", second_fan.is_on())
 
 # run the program
+test = TestFan()
+test.run_test()
