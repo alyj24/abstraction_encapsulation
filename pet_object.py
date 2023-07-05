@@ -6,6 +6,8 @@
 # import the class from module created
 from pet import Pet
 # implement functions
+def main()
+    pet = Pet()
   # ask the user for an inputs and save it all
   # name of the pet
   # animal type of the pet
