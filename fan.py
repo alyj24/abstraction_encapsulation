@@ -14,7 +14,7 @@ class Fan:
   MEDIUM = 2
   FAST = 3
   # establish the constructor
-  def __init__(self, speed=1, on=False, radius=1, color=blue):
+  def __init__(self, speed=1, on=False, radius=1, color='blue'):
       self.speed = speed
       self.on = on
       self.radius = radius
