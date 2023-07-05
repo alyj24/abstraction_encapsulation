@@ -4,6 +4,7 @@
 
 # pseudocode
 # import the class from module created
+from pet import Pet
 # implement functions
   # ask the user for an inputs and save it all
   # name of the pet
