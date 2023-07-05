@@ -15,6 +15,11 @@ class Car:
   # set the car's speed in increase of 5
   def accelerate(self):
       self.__speed += 5
-      
+
   # set the car's speed in decrease of 5
+  def brake(self):
+      self.__speed -= 5
+      if self.__speed < 0:
+          self.__speed = 0
+          
   # method to get the current speed
