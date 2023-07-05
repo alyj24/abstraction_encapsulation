@@ -7,7 +7,10 @@
 # import class from the module created
 from car import Car
 # implement functions
-  # establish the object of the car
+def main():
+    # establish the object of the car
+    car = Car(2005, "Chevrolet Equinox")
+    
   # call the program to accelerate, five times
   # call the program to brake, five times
   # check for errors
