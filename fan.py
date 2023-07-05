@@ -9,6 +9,10 @@ print("=" * 47)
 # create the class that will represent a fan
 class Fan:
   # implement the fan speed
+  '''Three constants that will set with values to denote the fan speed.'''
+  SLOW = 1
+  MEDIUM = 2
+  FAST = 3
   # establish the constructor
   # construct the accessor and mutator methods for all four private data fields
   # speed of the fan
