@@ -10,8 +10,11 @@ class Car:
       self.__year_model = year_model
       self.__make = make
       self.__speed = 0
-      
+
   # establish the methods for car
   # set the car's speed in increase of 5
+  def accelerate(self):
+      self.__speed += 5
+      
   # set the car's speed in decrease of 5
   # method to get the current speed
