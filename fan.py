@@ -1,7 +1,7 @@
 print("Assignment 9".center(42, "="))
-print("=" * 47)
-print("CMPE-103-MODULE-06-ABSTRACTION-AND-ENCAPSULATION")
-print("=" * 47)
+print("\033[94m=" * 48)
+print("\033[95mCMPE-103-MODULE-06-ABSTRACTION-AND-ENCAPSULATION")
+print("\033[94m=" * 48)
 
 # design a class named "Fan" to represent a fan, then try and run the program.
 
