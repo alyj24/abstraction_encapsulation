@@ -4,7 +4,13 @@
 # pseudocode
 # create the class
 class Pet:
-  # implement the constructor
+    # implement the constructor
+    '''Use the __init__ method.'''
+    def __init__(self):
+        self.__name = ""
+        self.__animal_type = ""
+        self.__age = 0
+        
   # establish the methods for the pet
   # assigns a value to the name field
   # assigns a value to the animal type field
